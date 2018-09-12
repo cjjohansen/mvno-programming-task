@@ -1,0 +1,27 @@
+﻿@model Telenor.MVNO.Web.MonthlyConsumptionViewModel
+
+@{
+    ViewBag.Title = "Monthly Consumption";
+}
+
+<h2>Monthly Consumption @Html.DisplayFor(model => model.Date);</h2>
+
+<fieldset>
+    <legend>Monthly Consumption</legend>
+
+   
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TotalPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TotalPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Currency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Currency)
+    </div>
+</fieldset>
+

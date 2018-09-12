@@ -1,0 +1,36 @@
+﻿@model Telenor.MVNO.Web.MonthlyConsumption
+
+@{
+    ViewBag.Title = "ConsumptionView";
+}
+
+<h2>ConsumptionView</h2>
+
+<fieldset>
+    <legend>MonthlyConsumption</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Date)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TotalPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TotalPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Currency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Currency)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

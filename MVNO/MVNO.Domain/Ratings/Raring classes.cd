@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Telenor.MVNO.Domain.Ratings.Rating">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.RatingDecorator">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="RatingDecoratee" Type="Telenor.MVNO.Domain.Ratings.Rating" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="3.865" />
+        <Point X="1.594" Y="3.865" />
+        <Point X="1.594" Y="1.875" />
+        <Point X="2.5" Y="1.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.039" Y="-1.13" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\RatingDecorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RatingDecoratee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.DataRating">
+    <Position X="4.75" Y="3.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\DataRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.ReducedDataRatingDecorator">
+    <Position X="2" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\ReducedDataRatingDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

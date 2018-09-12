@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Telenor.MVNO.Web.MonthlyConsumptionViewModel">
+    <Position X="0.5" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\MonthlyConsumptionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ConsumptionGroups" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Telenor.MVNO.Web.ConsumptionGroupViewModel">
+    <Position X="5.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAQEAAAAAAAEEAAAAAAAAAACAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ConsumptionGroupViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

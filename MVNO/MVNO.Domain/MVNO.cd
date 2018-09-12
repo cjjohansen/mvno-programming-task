@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Telenor.MVNO.Domain.Consumptions.CallDuration" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\CallDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.CallZone">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\CallZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.Caller">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\Caller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CallZone" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.PhoneNumber">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\PhoneNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.SMSConsumption">
+    <Position X="6" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\SMSConsumption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.DataConsumption">
+    <Position X="8.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\DataConsumption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.DataRating">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\DataRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.Amount" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Consumptions\Amount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.CallConsumption">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAAACAAAAAAAAAAAAIAAgAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\CallConsumption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.Consumption">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Consumptions\Consumption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Consumptions.CallRating">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\CallRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.SMSRating">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\SMSRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Ratings.Rating">
+    <Position X="13.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>YAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ratings\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Subscriptions.PersonName">
+    <Position X="0.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Subscriptions\PersonName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Subscriptions.Subscriber">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <AssociationLine Name="SubscriberId" Type="Telenor.MVNO.Domain.Subscriptions.SubscriberId">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.013" Y="-0.286" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscriptions\Subscriber.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SubscriberId" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Subscriptions.SubscriberId" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscriptions\SubscriberId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Subscriptions.Subscription">
+    <Position X="9.75" Y="6.75" Width="2.25" />
+    <AssociationLine Name="SubscriptionType" Type="Telenor.MVNO.Domain.Subscriptions.SubscriptionType">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.388" Y="0.204" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAEAAAACABAAAAAAAAAAQAAAAAAAgAAAA=</HashCode>
+      <FileName>Subscriptions\Subscription.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Subscriber" />
+      <Property Name="SubscriptionId" />
+      <Property Name="SubscriptionType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Telenor.MVNO.Domain.Subscriptions.SubscriptionId" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscriptions\SubscriptionId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Telenor.MVNO.Domain.Consumptions.Unit" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Consumptions\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Telenor.MVNO.Domain.Subscriptions.SubscriptionType" Collapsed="true">
+    <Position X="11" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscriptions\SubscriptionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
